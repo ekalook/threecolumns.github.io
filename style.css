@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins','Roboto';
+    background-color: white;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    flex-wrap: wrap;
+}
+.card {
+    margin: 2px;
+    width: 250px;
+    background-color: white;   
+    align-items: center;
+}
+.card:hover {
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+}
+.img-logo1 {
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 5px;
+    width: 100%;
+    height: 61vh;
+    font-size: 12px;
+}
+.img-logo1 a {
+    color: hsl(31, 77%, 52%);
+}
+.container img {
+    padding: 2rem;
+}
+h2 {
+    font-size: 2rem;
+    color: white;
+    margin-left: 2rem;
+}
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+    opacity: 0.8;
+    width: 210px;
+}
+p, a {
+    margin-left: 2rem;
+    padding-bottom: 3rem; 
+    padding-top: 2.5rem;
+    font-size: 15px;
+}
+.card a {
+    text-decoration: none;
+    background-color: white; 
+    padding: 0.5rem 1.2rem; 
+    border-radius: 20px; 
+    cursor: pointer;
+}
+.img-logo1 a:hover {
+    cursor: pointer;
+    color: rgba(40, 39, 40, 0.6);
+    background-color: hsl(32, 79%, 64%);
+}
+.img-logo2 {
+    background-color: hsl(184, 100%, 22%);
+    border-radius: 5px;
+    height: 61vh;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 12px;  
+}
+.img-logo2 a {
+     color:hsl(184, 100%, 22%);
+}
+.img-logo2 a:hover {
+    cursor: pointer;
+    color: rgba(40, 39, 40, 0.6);
+    background-color: hsl(184, 59%, 43%);
+}
+.img-logo3 {
+    background-color:hsl(179, 100%, 13%);
+    border-radius: 5px;
+    width: 100%;
+    height: 61vh;
+    font-size: 12px;
+}
+.img-logo3 a {
+    color: hsl(179, 100%, 13%); 
+}
+.img-logo3 a:hover {
+    cursor: pointer;
+    color: rgba(40, 39, 40, 0.6);
+    background-color:  hsl(179, 39%, 35%); 
+}
